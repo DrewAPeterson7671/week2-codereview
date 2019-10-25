@@ -3,11 +3,11 @@ $(document).ready(function() {
     var nameOne = $("input#nameOne").val();
 
 
-    $("#nameOneOut").append(nameOne);
+    $("#nameOneOut").text(nameOne);
 
 
-    $("#surveyResults").show();
-    $("#surveyParrot").show();
+    $(".surveyResults").show();
+    $(".surveyParrot").show();
 
 
     event.preventDefault();
