@@ -13,15 +13,17 @@ $(document).ready(function() {
       $("#languageSwift").show();
       count += 1;
     } else if {
-      favPlatform === 'Mobile' && favOs === "Google" {
+      (favPlatform === 'Mobile' && favOs === "Google") {
         $("#languageGo").show();
         count += 1;
       } else if {
-        favorite === 'Systems & Servers' && favOs === "Windows" {
+        (favorite === 'Systems & Servers' && favOs === "Windows") {
           $("#languageCs").show();
+        } else {
+          console.log("fail");
         }
       }
-    } 
+    }
 
 
 
