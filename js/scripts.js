@@ -7,8 +7,21 @@ $(document).ready(function() {
     var personalDisposition = $("input:radio[name=personalDisposition]:checked").val();
 
 
+    $("#languageJavascript").hide();
+    $("#languageRuby").hide();
+    $("#languageSwift").hide();
+    $("#languageGo").hide();
+    $("#languageSwift").hide();
+    $("#languagePython").hide();
+    $("#languageCs").hide();
+    $("#languagePython").hide();
+    $("#languageRust").hide();
 
-    if (favPlatform === 'web') {
+
+
+
+
+    if (favPlatform === 'Web') {
       $("#languageJavascript").show();
       $("#languageRuby").show();
       $("#languageSwift").show();
