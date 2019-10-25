@@ -23,10 +23,19 @@
             <div> <!--Form Section Marker - This div is a marker to section off the form area-->
 
               <form id="formInput">
-                <div Id="form-group"> <!--nane form-->
+                <div id="form-group"> <!--nane form-->
                   <label for="nameOne">Name</label>
                   <input id="nameOne" class="form-controller" type="text">
                 </div> <!--nane form-->
+
+                <div id="form-group"> <!--platform form-->
+                  <label for="favPlatform">Preferred Platform</label>
+                  <select id="favPlatform" class="form-controller">
+                    <option>Web</option>
+                    <option>Mobile</option>
+                    <option>Systems & Servers</option>
+                  </select>
+                </div> <!--platform form-->
 
 
 
@@ -58,6 +67,7 @@
               <div class="surveyParrot"> <!-- class for repeating survey input hiding and revealing results-->
                 <h1>How you responded to the survey</h1>
                   <p>Hello, <span id="nameOneOut"></span>!</p>
+                  <p>Preferred Platform: <span id="favPlatform"></span>.</p>
 
 
 
