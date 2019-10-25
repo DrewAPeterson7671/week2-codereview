@@ -3,12 +3,13 @@ $(document).ready(function() {
     var nameOne = $("input#nameOne").val();
 
 
-    $("")
+    $("#nameOneOut").append(nameOne);
 
 
+    $("#surveyResults").show();
+    $("#surveyParrot").show();
+
+
+    event.preventDefault();
   });
-
-
-
-
 });
