@@ -5,9 +5,10 @@ $(document).ready(function() {
 
     $("#nameOneOut").text(nameOne);
 
-
+    $(".surveyResults").hide();
+    $(".surveyParrot").hide(); //considering joining with surveyResults
     $(".surveyResults").show();
-    $(".surveyParrot").show();
+    $(".surveyParrot").show(); //considering joining with surveyResults
 
 
     event.preventDefault();
