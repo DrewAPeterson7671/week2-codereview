@@ -1,29 +1,27 @@
-# _{Application Name}_
+# _Code Language Recommender_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _This application is designed to recommend coding languages to those seeking a career in coding.  This is primarily an exercise in the use of branching and input forms with Javascript_
 
-#### By _**{List of contributors}**_
+#### By _**Drew Peterson**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_The user will fill out a survey and the branching of the Javascript will determine languages to study._
 
 ## Github Link
-{[Github link to project](https://drewapeterson7671.github.io/week-1-code-review/index.html)}
+{[Github link to project](https://drewapeterson7671.github.io/week2-codereview/index.html)}
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Download the directory from Github_
+* _Open index.html in a web browser_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+
+_Chrome is the recommended browser to view this webpage in_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_There currently are no known bugs_
 
 ## Support and contact details
 
@@ -31,11 +29,11 @@ _Please contact me directly via email at drew.a.peterson@hotmail.com with any bu
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out MIT or GPL.}_
+_This webpage uses HTML 5, CSS, Javascript, Bootstrap and jQuery_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*MIT*
 
 
 

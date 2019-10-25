@@ -6,7 +6,6 @@ $(document).ready(function() {
     var favLocation = $("input:radio[name=favLocation]:checked").val();
     var personalDisposition = $("input:radio[name=personalDisposition]:checked").val();
 
-
     $("#languageJavascript").hide();
     $("#languageRuby").hide();
     $("#languageSwift").hide();
@@ -16,10 +15,6 @@ $(document).ready(function() {
     $("#languageCs").hide();
     $("#languagePython").hide();
     $("#languageRust").hide();
-
-
-
-
 
     if (favPlatform === 'Web') {
       $("#languageJavascript").show();
@@ -37,11 +32,6 @@ $(document).ready(function() {
         console.log ("fail");
       }
 
-
-
-
-
-
     $("#nameOneOut").text(nameOne);
     $("#favPlatformOut").text(favPlatform);
     $("#favOsOut").text(favOs);
@@ -49,14 +39,10 @@ $(document).ready(function() {
     $("#personalDispositionOut").text(personalDisposition);
 
 
-//    console.log(favPlatform);
-
     $(".surveyResults").hide();
     $(".surveyParrot").hide(); //considering joining with surveyResults
     $(".surveyResults").show();
     $(".surveyParrot").show(); //considering joining with surveyResults
-//    $('.surveyResults').removeClass('show");
-//    $('.surveyParrot').removeClass('show");
 
     event.preventDefault();
   });
