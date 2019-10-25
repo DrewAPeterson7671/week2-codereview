@@ -9,25 +9,15 @@ $(document).ready(function() {
 
 
 
-    if (favPlatform === 'Mobile' && favOs === 'Apple') {
-      $("#languageSwift").show();
-      count += 1;
-    } else if {
-      (favPlatform === 'Mobile' && favOs === "Google") {
-        $("#languageGo").show();
-        count += 1;
-      } else if {
-        (favorite === 'Systems & Servers' && favOs === "Windows") {
-          $("#languageCs").show();
-        } else {
-          console.log("fail");
-        }
-      }
-    }
-
-
-
-
+//    if (favPlatform === 'Mobile' && favOs === 'Apple') {
+//       $("#languageSwift").show();
+//       count += 1;
+//     } else if (favPlatform === 'Mobile' && favOs === "Google") {
+//         $("#languageGo").show();
+//       count += 1;
+//      } else {
+//        console.log ("Fail")
+//      }
 
 
 
@@ -37,9 +27,7 @@ $(document).ready(function() {
     $("#favOsOut").text(favOs);
     $("#favLocationOut").text(favLocation);
     $("#personalDispositionOut").text(personalDisposition);
-    $("#language1Out").text(recLanguage1);
-    $("#language2Out").text(recLanguage2);
-    $("#language3Out").text(recLanguage3);
+
 
 //    console.log(favPlatform);
 
