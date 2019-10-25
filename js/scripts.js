@@ -5,19 +5,26 @@ $(document).ready(function() {
     var favOs = $("input:radio[name=favOs]:checked").val();
     var favLocation = $("input:radio[name=favLocation]:checked").val();
     var personalDisposition = $("input:radio[name=personalDisposition]:checked").val();
-    var count = 0;
 
 
 
-//    if (favPlatform === 'Mobile' && favOs === 'Apple') {
-//       $("#languageSwift").show();
-//       count += 1;
-//     } else if (favPlatform === 'Mobile' && favOs === "Google") {
-//         $("#languageGo").show();
-//       count += 1;
-//      } else {
-//        console.log ("Fail")
-//      }
+    if (favPlatform === 'web') {
+      $("#languageJavascript").show();
+      $("#languageRuby").show();
+      $("#languageSwift").show();
+      } else if (favPlatform === 'Mobile') {
+        $("#languageGo").show();
+        $("#languageSwift").show();
+        $("#languagePython").show();
+      } else if (favPlatform === 'Systems & Servers') {
+        $("#languageCs").show();
+        $("#languagePython").show();
+        $("#languageRust").show();
+      } else {
+        console.log ("fail");
+      }
+
+
 
 
 
