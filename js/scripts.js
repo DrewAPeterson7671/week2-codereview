@@ -3,10 +3,15 @@ $(document).ready(function() {
     var nameOne = $("input#nameOne").val();
     var favPlatform = $("#favPlatform").val();
     var favOs = $("input:radio[name=favOs]:checked").val();
+    var favLocation = $("input:radio[name=favLocation]:checked").val();
+    var personalDisposition = $("input:radio[name=personalDisposition]:checked").val();
 
     $("#nameOneOut").text(nameOne);
     $("#favPlatformOut").text(favPlatform);
     $("#favOsOut").text(favOs);
+    $("#favLocationOut").text(favLocation);
+    $("#personalDispositionOut").text(personalDisposition);
+
 
 //    console.log(favPlatform);
 
