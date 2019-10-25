@@ -29,13 +29,33 @@
                 </div> <!--nane form-->
 
                 <div id="form-group"> <!--platform form-->
-                  <label for="favPlatform">Preferred Platform</label>
+                  <label for="favPlatform">Favorite Platform</label>
                   <select id="favPlatform" class="form-controller">
                     <option>Web</option>
                     <option>Mobile</option>
                     <option>Systems & Servers</option>
                   </select>
                 </div> <!--platform form-->
+
+                <div class="form-group"> <!--os radio form-->
+                  <label for="favOs">Favorite OS Philosphy</label>
+                    <label>
+                      <input type="radio" name="favOs" value="Windows">
+                      Windows
+                    </label>
+                    <label>
+                      <input type="radio" name="favOs" value="Apple">
+                      Apple
+                    </label>
+                    <label>
+                      <input type="radio" name="favOs" value="Google">
+                      Google
+                    </label>
+                    <label>
+                      <input type="radio" name="favOs" value="Linux">
+                      Linux
+                    </label>
+                </div> <!--os radio form-->
 
 
 
@@ -67,7 +87,7 @@
               <div class="surveyParrot"> <!-- class for repeating survey input hiding and revealing results-->
                 <h1>How you responded to the survey</h1>
                   <p>Hello, <span id="nameOneOut"></span>!</p>
-                  <p>Preferred Platform: <span id="favPlatform"></span>.</p>
+                  <p>Preferred Platform: <span id="favPlatformOut"></span>.</p>
 
 
 
